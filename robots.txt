@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Fouille de textes et de donnees : reservation exprimee au titre de
+# l'article L. 122-5-3 du code de la propriete intellectuelle.
+# Voir /.well-known/tdmrep.json et la page d'accueil.
