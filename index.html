@@ -4,11 +4,11 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-            Conditions d'utilisation des photographies · Thibault Santonja
+            Licence d’utilisation des photographies · Thibault Santonja
         </title>
         <meta
             name="description"
-            content="Conditions d'utilisation des photographies de Thibault Santonja : usage non commercial autorisé avec crédit, accord requis pour publier une version modifiée, pour tout usage impliquant de l'argent et pour l'entraînement d'intelligences artificielles."
+            content="Licence d’utilisation des photographies de Thibault Santonja : conditions d’usage pour les particuliers, associations, entreprises, organismes et systèmes d’intelligence artificielle."
         />
         <link rel="canonical" href="https://licence.thibaultsan.com/" />
         <meta name="author" content="Thibault Santonja" />
@@ -18,18 +18,18 @@
         />
         <meta
             name="rights"
-            content="Usage non commercial autorisé avec crédit. Accord écrit requis pour publier une version modifiée, pour tout usage impliquant de l'argent, pour la publicité, pour la transmission à un tiers et pour l'entraînement de systèmes d'intelligence artificielle."
+            content="Les photographies restent protégées par le droit d’auteur. Les usages autorisés et les conditions d’accord préalable sont définis dans la licence."
         />
         <meta name="robots" content="index, follow" />
         <meta name="tdm-reservation" content="1" />
         <meta name="tdm-policy" content="https://licence.thibaultsan.com/" />
         <meta
             property="og:title"
-            content="Conditions d'utilisation des photographies · Thibault Santonja"
+            content="Licence d’utilisation des photographies · Thibault Santonja"
         />
         <meta
             property="og:description"
-            content="Ce que vous pouvez faire librement, ce qui demande mon accord, comment me créditer."
+            content="Conditions d’utilisation des photographies pour les particuliers, associations, entreprises et autres organismes."
         />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://licence.thibaultsan.com/" />
@@ -123,6 +123,29 @@
                 color: var(--doux);
                 font-size: 0.9rem;
             }
+            .lang-switch {
+                display: flex;
+                gap: 6px;
+                margin: 0 0 24px;
+                justify-content: flex-end;
+            }
+            .lang-switch button {
+                border: 1px solid var(--trait);
+                background: transparent;
+                color: var(--doux);
+                padding: 5px 9px;
+                border-radius: 4px;
+                font: inherit;
+                font-size: 0.85rem;
+                cursor: pointer;
+            }
+            .lang-switch button.active {
+                color: var(--encre);
+                border-color: var(--accent);
+            }
+            .lang-panel[hidden] {
+                display: none;
+            }
             .en {
                 color: var(--doux);
                 font-size: 0.95rem;
@@ -132,272 +155,385 @@
     <body>
         <main>
             <header>
-                <h1>Conditions d'utilisation de mes photographies</h1>
+                <h1>Condition d’utilisation de mes photographies</h1>
                 <p class="chapeau">
-                    Thibault Santonja, photographe. Valables pour les
-                    photographies prises dans un cadre associatif, hors contrat
-                    spécifique. Version du 23 septembre 2026.
+                    Thibault Santonja, photographe. Conditions d’utilisation des
+                    photographies protégées par le droit d’auteur.
                 </p>
             </header>
 
-            <div class="encadre">
-                <p style="margin: 0">
-                    En deux lignes : vous pouvez publier mes photos librement
-                    pour tout usage qui ne rapporte pas d'argent, en me
-                    créditant. Publier une version modifiée, vendre quoi que ce
-                    soit, faire de la publicité ou entraîner une intelligence
-                    artificielle demande mon accord, qui s'obtient par un simple
-                    message.
+            <nav class="lang-switch" aria-label="Language">
+                <button
+                    type="button"
+                    class="active"
+                    data-lang="fr"
+                    aria-pressed="true"
+                >
+                    FR
+                </button>
+                <button type="button" data-lang="en" aria-pressed="false">
+                    EN
+                </button>
+            </nav>
+
+            <section class="lang-panel" data-lang-panel="fr" lang="fr">
+                <p>
+                    Ces photographies sont mes œuvres et restent protégées par
+                    le droit d’auteur. Je souhaite néanmoins permettre leur
+                    utilisation assez librement, en particulier pour les
+                    particuliers et les associations. L’idée est simple, vous
+                    pouvez utiliser mes photographies gratuitement dans les cas
+                    prévus ci-dessous, pour le reste, contactez-moi et nous
+                    verrons ensemble ce qui est possible.
                 </p>
-            </div>
+                <p>
+                    Les autorisations accordées ici sont non exclusives, non
+                    cessibles et non transférables et concernent uniquement les
+                    droits que je détiens sur mes photographies (voir le point
+                    "info" ci-dessous). Sauf accord contraire écrit de ma part,
+                    vous devez conserver mon crédit : <strong>Thibault San</strong>.
+                </p>
+                <div class="encadre">
+                    <p style="margin: 0">
+                        <strong>Info</strong> : cette licence concerne uniquement mes propres
+                        droits. Une photographie peut aussi représenter des
+                        personnes, marques, œuvres, biens ou d'autres éléments
+                        protégés, dont je n'ai pas nécessairement les droits de
+                        diffusion. Leur utilisation peut être soumise à des
+                        droits ou autorisations supplémentaires, que cette
+                        licence ne vous accorde donc pas.
+                    </p>
+                </div>
+                <p>
+                    Une autorisation particulière que je vous donne par écrit
+                    est valable uniquement pour les photographies, les usages,
+                    les supports, les projets, la durée et les autres conditions
+                    précisés dans cet accord. Elle ne peut donc pas être
+                    appliquée pour mes autres photographies ou pour d'autres
+                    usages.
+                </p>
+                <p>
+                    Toute utilisation ne respectant pas ces règles n'est pas
+                    autorisée et je pourrai alors demander l'arrêt de cette
+                    utilisation et, si nécessaire, le retrait des reproductions
+                    concernées.
+                </p>
+                <h2>Particuliers</h2>
+                <p>
+                    Vous pouvez utiliser mes photographies gratuitement pour un
+                    usage personnel et non commercial. Vous pouvez notamment :
+                    les télécharger, les conserver, les partager avec vos
+                    proches, les publier sur vos réseaux sociaux personnels ou
+                    les imprimer pour votre usage privé.
+                </p>
+                <p>
+                    En revanche, cette autorisation ne vous permet pas de mettre
+                    les fichiers originaux ou haute définition à la disposition
+                    de tiers dans le but de leur permettre de les réutiliser ou
+                    de les exploiter.
+                </p>
+                <h2>Associations</h2>
+                <p>
+                    Les associations peuvent utiliser mes photographies
+                    gratuitement et sur demande et accord préalable, pour leurs
+                    activités et leur communication institutionnelle non
+                    commerciale. Cela peut par exemple concerner un site
+                    internet, les réseaux sociaux de l'association, une affiche,
+                    une newsletter ou un document. En revanche, cette
+                    autorisation gratuite ne couvre pas (liste non exhaustive) :
+                </p>
+                <ul>
+                    <li>
+                        la vente de produits ou de supports utilisant mes
+                        photographies ;
+                    </li>
+                    <li>
+                        la publicité ou la promotion d'une entreprise, d'un
+                        partenaire ou d'un tiers ;
+                    </li>
+                    <li>la promotion publique d'un événement ;</li>
+                    <li>une campagne de dons ou de financement ;</li>
+                    <li>une campagne publique d'adhésion ;</li>
+                    <li>une utilisation commerciale ou promotionnelle ;</li>
+                    <li>
+                        la cession, le transfert ou la sous-licence des droits
+                        accordés par cette licence ;
+                    </li>
+                    <li>
+                        les modifications ou transformations de la photographie
+                        autres que les adaptations techniques nécessaires au
+                        support ;
+                    </li>
+                    <li>
+                        l'utilisation de mes photographies avec ou pour un
+                        système d'intelligence artificielle.
+                    </li>
+                </ul>
+                <p>
+                    Si votre projet entre dans l'un de ces cas, contactez-moi
+                    avant de publier ou d'utiliser la ou les photographie(s).
+                    Selon le projet, je pourrai proposer une licence
+                    d'exploitation ou une cession de droits, avec des conditions
+                    définies dans un accord écrit.
+                </p>
+                <p>
+                    Pour rappel, le crédit <strong>Thibault San</strong> doit être conservé. Si
+                    le support ne permet raisonnablement pas de l'afficher, je
+                    peux accorder une exception par écrit.
+                </p>
+                <h2>Entreprises, services publics et autres organismes</h2>
+                <p>
+                    Pour les entreprises, administrations, collectivités,
+                    médias, organismes et cetera, toute utilisation de mes
+                    photographies nécessite mon accord préalable écrit. Il
+                    suffit de m'indiquer la ou les photographie(s) concernée(s),
+                    ce que vous souhaitez en faire et le(s) support(s) prévu(s).
+                    Selon le projet, je pourrai proposer une licence
+                    d'exploitation ou une cession de droits, avec des conditions
+                    et une rémunération définies dans un accord écrit.
+                </p>
+                <h2>Intelligence artificielle</h2>
+                <p>
+                    Par défaut, je n'autorise aucune utilisation de mes
+                    photographies avec ou pour un système d'intelligence
+                    artificielle, que ce soit pour (liste non-exhaustive) :
+                </p>
+                <ul>
+                    <li>l'entraînement ou le fine-tuning de modèles ;</li>
+                    <li>
+                        la constitution ou l'enrichissement de jeux de données ;
+                    </li>
+                    <li>
+                        la fouille, l'extraction ou l'analyse automatisée
+                        destinées au développement de systèmes d'intelligence
+                        artificielle ;
+                    </li>
+                    <li>l'évaluation ou le développement de modèles ;</li>
+                    <li>
+                        l'utilisation d'une photographie comme image de
+                        référence ou comme entrée d'un système d'IA ;
+                    </li>
+                </ul>
+                <p>
+                    la modification ou la transformation d'une photographie par
+                    un outil d'IA ;
+                </p>
+                <ul>
+                    <li>
+                        plus généralement, toute utilisation destinée à
+                        développer, entraîner, tester, évaluer ou faire
+                        fonctionner un système d'intelligence artificielle.
+                    </li>
+                </ul>
+                <p>
+                    Si vous avez un projet particulier impliquant de l'IA, vous
+                    pouvez bien sûr m'en parler. Je pourrai exceptionnellement
+                    donner mon accord pour un usage précis, mais uniquement
+                    après accord écrit de ma part.
+                </p>
+                <h2>Quelques précisions pour finir</h2>
+                <p>
+                    Cette licence ne constitue pas une cession générale de mes
+                    droits d'auteur. Elle vous donne uniquement les
+                    autorisations décrites ici.
+                </p>
+                <p>
+                    Pour info : les recadrages, redimensionnements, compressions
+                    et autres adaptations techniques nécessaires à un support
+                    sont autorisés lorsqu'ils correspondent à un usage lui-même
+                    autorisé. Pour toute autre modification ou transformation de
+                    la photographie, demandez-moi mon accord au préalable.
+                </p>
+                <p>
+                    Surtout, si vous avez le moindre doute, contactez-moi. Je
+                    préfère répondre à une question avant une utilisation plutôt
+                    que de devoir demander le retrait d'une photographie après
+                    coup. De même, pour toute demande particulière, envoyez-moi
+                    un e-mail. Je pourrai, si nécessaire, vous donner une
+                    autorisation spécifique adaptée à votre projet.
+                </p>
+                <p>
+                    <strong>
+                        Attention : l'absence de réponse de ma part ne vaut pas autorisation.
+                    </strong>
+                </p>
+            </section>
 
-            <h2>1. Ce que vous pouvez faire librement</h2>
-            <ul>
-                <li>
-                    Publier les photographies sur vos comptes personnels et sur
-                    ceux de l'association, photo de profil et image de couverture
-                    comprises.
-                </li>
-                <li>
-                    Les publier sur le site et dans la lettre d'information de
-                    l'association.
-                </li>
-                <li>
-                    Les imprimer pour un usage qui ne rapporte pas d'argent :
-                    tirage personnel, panneau d'exposition, album interne,
-                    support pédagogique, projection en réunion.
-                </li>
-            </ul>
-            <p>
-                Ces usages sont libres, sans limite de durée, partout dans le
-                monde, sans me prévenir.
-            </p>
-
-            <h2>2. Ce qui demande mon accord préalable</h2>
-            <p>
-                Un message suffit, et l'accord peut être donné par simple
-                réponse. Sont concernés :
-            </p>
-            <ul>
-                <li>
-                    <strong>la publication d'une version modifiée</strong> :
-                    recadrage volontaire, étalonnage, filtre, ajout ou
-                    suppression d'éléments, détourage, incrustation de texte sur
-                    le sujet, passage en noir et blanc. Ce que vous faites de
-                    l'image dans votre coin ne me regarde pas : seule la
-                    diffusion d'une version modifiée demande mon accord ;
-                </li>
-                <li>
-                    <strong>tout support qui met en jeu de l'argent</strong>,
-                    même sans bénéfice : vente à prix coûtant d'un livret, d'un
-                    calendrier ou d'un tirage, campagne de financement
-                    participatif et ses contreparties, affiche ou programme d'un
-                    événement payant, support portant le logo d'un partenaire ou
-                    d'un sponsor ;
-                </li>
-                <li>
-                    <strong>toute publicité</strong>, toute opération de
-                    communication d'une entreprise ou d'une collectivité ;
-                </li>
-                <li>
-                    <strong>la transmission à un tiers</strong> pour son usage
-                    propre, le dépôt sur une banque d'images, la revente ;
-                </li>
-                <li>
+            <section class="lang-panel" data-lang-panel="en" lang="en" hidden>
+                <p>
+                    These photographs are my works and remain protected by
+                    copyright. Nevertheless, I would like to allow their use
+                    fairly freely, particularly by individuals and associations.
+                    The idea is simple: you may use my photographs free of
+                    charge in the cases set out below. For anything else, please
+                    contact me and we can discuss what may be possible.
+                </p>
+                <p>
+                    The permissions granted here are non-exclusive,
+                    non-assignable and non-transferable, and concern only the
+                    rights that I hold in my photographs (see the “Info” section
+                    below). Unless I give you different written permission, you
+                    must retain my credit: <strong>Thibault San</strong>.
+                </p>
+                <div class="encadre">
+                    <p style="margin: 0">
+                        <strong>Info:</strong> this license only covers my own
+                        rights. A photograph may also depict people, trademarks,
+                        works, property or other protected elements for which I
+                        do not necessarily hold the rights of publication or
+                        use. Their use may therefore be subject to additional
+                        rights or permissions, which this license does not grant
+                        you.
+                    </p>
+                </div>
+                <p>
+                    Any specific permission I give you in writing is valid only
+                    for the photographs, uses, media, projects, duration and
+                    other conditions specified in that agreement. It therefore
+                    cannot be applied to my other photographs or to other uses.
+                </p>
+                <p>
+                    Any use that does not comply with these rules is not
+                    authorized, and I may then request that such use be stopped
+                    and, if necessary, that the relevant reproductions be
+                    removed.
+                </p>
+                <h2>Individuals</h2>
+                <p>
+                    You may use my photographs free of charge for personal and
+                    non-commercial purposes. In particular, you may download
+                    them, keep them, share them with people close to you,
+                    publish them on your personal social media accounts, or
+                    print them for your private use.
+                </p>
+                <p>
+                    However, this permission does not allow you to make the
+                    original or high-resolution files available to third parties
+                    for the purpose of enabling them to reuse or exploit them.
+                </p>
+                <h2>Associations</h2>
+                <p>
+                    Associations may use my photographs free of charge, upon
+                    request and with my prior approval, for their activities and
+                    non-commercial institutional communications. This may
+                    include, for example, a website, the association's social
+                    media accounts, a poster, a newsletter or a document.
+                </p>
+                <p>
+                    However, this free permission does not cover, without
+                    limitation:
+                </p>
+                <ul>
+                    <li>
+                        the sale of products or materials using my photographs;
+                    </li>
+                    <li>
+                        advertising or promotion of a company, partner or third
+                        party;
+                    </li>
+                    <li>public promotion of an event;</li>
+                    <li>a donation or fundraising campaign;</li>
+                    <li>a public membership campaign;</li>
+                    <li>commercial or promotional use;</li>
+                    <li>
+                        the assignment, transfer or sublicensing of the rights
+                        granted by this license;
+                    </li>
+                    <li>
+                        modifications or transformations of the photograph other
+                        than technical adaptations necessary for the intended
+                        medium;
+                    </li>
+                    <li>
+                        the use of my photographs with or for an artificial
+                        intelligence system.
+                    </li>
+                </ul>
+                <p>
+                    If your project falls into one of these categories, please
+                    contact me before publishing or using the photograph(s).
+                    Depending on the project, I may offer an exploitation
+                    license or an assignment of rights, with terms defined in a
+                    written agreement.
+                </p>
+                <p>
+                    As a reminder, the <strong>Thibault San</strong> credit must
+                    be retained. If the medium does not reasonably allow it to
+                    be displayed, I may grant a written exception.
+                </p>
+                <h2>Companies, public services and other organizations</h2>
+                <p>
+                    For companies, public administrations, local authorities,
+                    media organizations, institutions and other organizations,
+                    any use of my photographs requires my prior written
+                    approval.
+                </p>
+                <p>
+                    You only need to tell me which photograph(s) are concerned,
+                    what you would like to do with them, and on which medium or
+                    media they will be used. Depending on the project, I may
+                    offer an exploitation license or an assignment of rights,
+                    with terms and remuneration defined in a written agreement.
+                </p>
+                <h2>Artificial intelligence</h2>
+                <p>
+                    By default, I do not authorize any use of my photographs
+                    with or for an artificial intelligence system, including,
+                    but not limited to:
+                </p>
+                <ul>
+                    <li>training or fine-tuning models;</li>
+                    <li>creating or expanding datasets;</li>
+                    <li>
+                        automated mining, extraction or analysis intended to
+                        develop artificial intelligence systems;
+                    </li>
+                    <li>evaluating or developing models;</li>
+                    <li>
+                        using a photograph as a reference image or as input to
+                        an AI system;
+                    </li>
+                    <li>
+                        modifying or transforming a photograph using an AI tool;
+                    </li>
+                    <li>
+                        more generally, any use intended to develop, train,
+                        test, evaluate or operate an artificial intelligence
+                        system.
+                    </li>
+                </ul>
+                <p>
+                    If you have a specific project involving AI, you are of
+                    course welcome to discuss it with me. I may exceptionally
+                    grant permission for a specific use, but only after I have
+                    given my written approval.
+                </p>
+                <h2>A few final clarifications</h2>
+                <p>
+                    This license does not constitute a general assignment of my
+                    copyrights. It only grants the permissions described here.
+                </p>
+                <p>
+                    For information: cropping, resizing, compression and other
+                    technical adaptations required by a medium are permitted
+                    when they correspond to an otherwise authorized use. For any
+                    other modification or transformation of the photograph,
+                    please ask for my prior approval.
+                </p>
+                <p>
+                    Above all, if you have any doubt, please contact me. I would
+                    rather answer a question before a photograph is used than
+                    have to request its removal afterwards. Likewise, for any
+                    specific request, please send me an email. If necessary, I
+                    can give you a specific permission adapted to your project.
+                </p>
+                <p>
                     <strong
-                        >l'usage pour entraîner, ajuster ou évaluer un système
-                        d'intelligence artificielle</strong
-                    >.
-                </li>
-            </ul>
-            <h3>Deux précisions</h3>
-            <ul>
-                <li>
-                    Les recadrages automatiques imposés par une plateforme pour
-                    l'affichage (vignette, photo de profil, aperçu) ne sont pas
-                    des modifications. Si le cadrage automatique abîme l'image,
-                    demandez-moi une version recadrée, je la fournis.
-                </li>
-                <li>
-                    Les modifications techniques nécessaires à la diffusion
-                    (changement de format, compression, conversion pour
-                    l'impression) sont libres, tant que l'image reste la même.
-                </li>
-            </ul>
-
-            <h2>3. Crédit</h2>
-            <p>
-                Chaque diffusion comporte, dans la mesure de ce qui est
-                raisonnable selon le support :
-            </p>
-            <ul>
-                <li>
-                    le nom de l'auteur :
-                    <code>Photographie : Thibault Santonja</code> ;
-                </li>
-                <li>la mention de droits, si elle accompagne l'image ;</li>
-                <li>un lien vers cette page, ou sa mention ;</li>
-                <li>
-                    le renvoi à la clause de garantie, si elle accompagne
-                    l'image ;
-                </li>
-                <li>
-                    <strong
-                        >l'indication qu'une version modifiée est diffusée</strong
-                    >, lorsque j'ai donné mon accord, par exemple
-                    <code>Photographie : Thibault Santonja, image recadrée</code
-                    >.
-                </li>
-            </ul>
-            <p>
-                Le crédit doit être visible et lisible : sous l'image dans un
-                livret, sur un côté d'une affiche, en fin d'ouvrage, dans le
-                texte du message sur un réseau social. Les métadonnées de crédit
-                intégrées aux fichiers ne doivent pas être supprimées. Si le
-                support ne permet pas de tout faire figurer, le nom de l'auteur
-                reste obligatoire.
-            </p>
-
-            <h2>4. Les conditions suivent l'image</h2>
-            <p>
-                Si vous transmettez une photographie à un membre, à une
-                association amie ou à toute autre personne, vous lui transmettez
-                aussi ces conditions, sans en retirer ni en ajouter. Personne ne
-                peut redistribuer mes images sous des conditions différentes.
-            </p>
-
-            <h2>5. Demandes venant de l'extérieur</h2>
-            <p>
-                Si une structure tierce vous demande une ou plusieurs de ces
-                photographies, quelle qu'en soit l'utilisation, y compris pour
-                annoncer votre venue à un événement ou pour un bulletin municipal
-                gratuit, renvoyez-la vers moi.
-            </p>
-            <p>
-                Cela vaut pour la presse, les éditeurs, les télévisions et les
-                radios, les mairies et les collectivités, les offices de
-                tourisme, les musées, les agences et les marques. Je reste seul
-                titulaire des droits d'auteur et seul à pouvoir leur accorder une
-                autorisation. Cela vous protège aussi : vous n'avez pas à
-                arbitrer à ma place.
-            </p>
-
-            <h2>6. Fichiers</h2>
-            <p>
-                Un album contient l'intégralité des images retenues, il n'y en
-                aura pas d'autres. Les fichiers RAW ne sont pas transmis. Les
-                fichiers sont livrés en qualité web ; pour un tirage ou une
-                impression, demandez-moi une version en résolution d'impression.
-            </p>
-
-            <h2>7. Si les conditions ne sont pas respectées</h2>
-            <p>
-                Je demande la régularisation par message. Sans réponse ni
-                correction sous quinze jours, l'autorisation prend fin pour
-                l'usage concerné, et cet usage est facturé au tarif commercial
-                applicable, selon le barème de l'Union des photographes
-                professionnels en vigueur, sans préjudice des suites légales.
-            </p>
-            <p>
-                La fin de l'autorisation ne vaut que pour l'avenir et pour la
-                personne concernée : elle ne remet pas en cause les usages déjà
-                faits par les autres dans le respect de ces conditions.
-            </p>
-
-            <h2>8. Mon utilisation des photographies</h2>
-            <p>
-                Je conserve mes droits d'auteur et j'utilise ces images pour
-                présenter et promouvoir mon travail : site internet, réseaux
-                sociaux, portfolio, article, exposition, concours, et le cas
-                échéant publication ou tirage vendus.
-            </p>
-            <ul>
-                <li>
-                    <strong>Scènes de groupe et vues d'ensemble</strong> : si
-                    vous ne voulez pas y apparaître, écrivez-moi et je retire
-                    l'image de mes usages promotionnels et commerciaux.
-                </li>
-                <li>
-                    <strong
-                        >Portraits où une personne est le sujet principal</strong
+                        >Please note: my failure to reply does not constitute
+                        permission.</strong
                     >
-                    : je ne les utilise à ces fins qu'avec votre accord, demandé
-                    et donné par écrit, un message suffit.
-                </li>
-                <li>
-                    Dans tous les cas, je ne diffuse pas d'image portant atteinte
-                    à la dignité, à la vie privée ou à la réputation, ni
-                    détournée de son contexte, et je retire sur demande.
-                </li>
-            </ul>
-            <p>
-                Les photographies de personnes identifiables sont des données
-                personnelles : vous pouvez à tout moment demander l'accès, la
-                rectification ou l'effacement des images vous concernant.
-            </p>
-
-            <h2>9. Fouille de données et intelligence artificielle</h2>
-            <p>
-                Je m'oppose expressément à la fouille de textes et de données sur
-                ces photographies, ainsi qu'à leur utilisation pour entraîner,
-                ajuster ou évaluer un système d'intelligence artificielle, au
-                titre de l'article L. 122-5-3 du code de la propriété
-                intellectuelle. Cette opposition est également exprimée par des
-                procédés lisibles par machine : métadonnées des fichiers
-                (<code>XMP-plus:DataMining</code>), balises de cette page et
-                fichier
-                <a href="/.well-known/tdmrep.json">/.well-known/tdmrep.json</a>.
-            </p>
-
-            <h2>10. Garantie et responsabilité</h2>
-            <p>
-                Les photographies sont mises à disposition en l'état, sans
-                garantie d'aucune sorte quant à leur adéquation à un usage
-                particulier, à l'exactitude des légendes ou à l'absence de droits
-                de tiers autres que les miens, notamment les droits des personnes
-                représentées.
-            </p>
-            <p>
-                Je ne réponds pas de l'usage que vous faites des images ni de ses
-                conséquences, dans la limite de ce que permet la loi. Il vous
-                appartient de vérifier que votre publication ne porte atteinte ni
-                aux personnes représentées ni à des tiers.
-            </p>
-
-            <h2>11. Acceptation et demandes</h2>
-            <p>
-                L'utilisation d'une ou plusieurs photographies vaut acceptation
-                des présentes conditions. Toute demande particulière, y compris
-                commerciale, peut faire l'objet d'une autorisation spécifique :
-                écrivez-moi depuis
-                <a href="https://thibaultsan.com" rel="noopener">thibaultsan.com</a
-                >. Je réponds vite et je dis rarement non.
-            </p>
-
-            <h2>Summary in English</h2>
-            <p class="en">
-                Photographs by Thibault Santonja may be used freely by
-                participants and associations on personal and association
-                accounts, websites and newsletters, and for printing that does
-                not involve money, provided each use credits
-                <code>Photographie : Thibault Santonja</code> and keeps the
-                credit metadata.
-            </p>
-            <p class="en">
-                Prior agreement is required for: publishing an edited version
-                (deliberate cropping, colour grading, filters, adding or removing
-                elements), any use involving money even without profit (sales at
-                cost price, crowdfunding, posters for paid events, materials
-                carrying a sponsor logo), advertising, transfer to third parties,
-                image banks, and any use for training artificial intelligence
-                systems. Automatic cropping imposed by a platform, and technical
-                conversions needed to publish, are not considered editing. These
-                conditions travel with the images. If a third party (press,
-                publisher, broadcaster, local authority, tourist office, agency,
-                brand) asks you for these photographs, please refer them to me: I
-                remain the sole holder of the copyright. RAW files are not
-                provided. The photographs are provided as is, without warranty.
-            </p>
+                </p>
+            </section>
 
             <footer>
                 <p>
@@ -405,14 +541,7 @@
                     <a href="https://thibaultsan.com" rel="noopener"
                         >thibaultsan.com</a
                     >
-                    · Version du 23 septembre 2026.
-                </p>
-                <p>
-                    Les photographies diffusées avant cette date sous licence
-                    Creative Commons BY-NC-SA 4.0 restent régies par cette
-                    licence, qui est irrévocable. Les présentes conditions
-                    s'appliquent aux photographies diffusées à partir de cette
-                    date.
+                    · Licence d’utilisation des photographies.
                 </p>
             </footer>
         </main>
@@ -421,7 +550,7 @@
             {
                 "@context": "https://schema.org",
                 "@type": "DigitalDocument",
-                "name": "Conditions d'utilisation des photographies de Thibault Santonja",
+                "name": "Licence d’utilisation des photographies de Thibault Santonja",
                 "url": "https://licence.thibaultsan.com/",
                 "inLanguage": "fr-FR",
                 "datePublished": "2026-09-23",
@@ -440,6 +569,32 @@
                 "usageInfo": "https://licence.thibaultsan.com/",
                 "creditText": "Photographie : Thibault Santonja"
             }
+        </script>
+
+        <script>
+            const buttons = document.querySelectorAll("[data-lang]");
+            const panels = document.querySelectorAll("[data-lang-panel]");
+
+            buttons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    const lang = button.dataset.lang;
+
+                    buttons.forEach((item) => {
+                        const active = item.dataset.lang === lang;
+                        item.classList.toggle("active", active);
+                        item.setAttribute(
+                            "aria-pressed",
+                            active ? "true" : "false",
+                        );
+                    });
+
+                    panels.forEach((panel) => {
+                        panel.hidden = panel.dataset.langPanel !== lang;
+                    });
+
+                    document.documentElement.lang = lang;
+                });
+            });
         </script>
     </body>
 </html>
